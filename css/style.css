@@ -9,6 +9,7 @@ body {
    font-size: 14px;
    line-height: 19px;
    font-weight: 400;
+   color: #303030;
 }
 
 a {
@@ -105,8 +106,6 @@ ul {
    margin-bottom: 150px;
 }
 
-.title {}
-
 .service__inner {
    display: flex;
 }
@@ -127,8 +126,57 @@ ul {
    margin-bottom: 15px;
 }
 
-.service__box-text {}
-
 .service__img {
    object-fit: cover;
+}
+
+.info {
+   margin-bottom: 150px;
+}
+
+.info__inner {
+   display: flex;
+}
+.info__box {
+   flex-basis: 510px;
+   margin-right: 90px;
+}
+.info__tabs {
+   margin-bottom: 100px;
+}
+.info_tabs-items {
+   margin-bottom: 120px;
+}
+.info_tabs-item {
+}
+.info__tabs-contentbox {
+}
+.info__tabs-content {
+}
+.info__slider {
+}
+.info__slider-item {
+}
+.info__slider-img {
+}
+.info__slider-text {
+}
+.info__list {
+}
+.info__list-item {
+}
+.info__list-title {
+}
+.info__list-text {
+}
+.info__content {
+   flex-basis: 600px;
+}
+.info__content-text {
+   font-size: 18px;
+   line-height: 25px;
+   font-weight: 700;
+   margin-bottom: 17px;
+}
+.info__content-img {
 }
