@@ -183,10 +183,20 @@ ul {
    padding-bottom: 15px;
 }
 .info__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
+
 .info__list-item {
+   flex-basis: 235px;
+   margin-bottom: 17px;
 }
 .info__list-title {
+   margin-bottom: 5px;
+   font-size: 18px;
+   line-height: 25px;
+   font-weight: 700;
 }
 .info__list-text {
 }
@@ -212,4 +222,113 @@ ul {
 
 .slick-right {
    left: 340px;
+}
+
+.blockquote {
+   padding: 128px 10px 144px;
+   background-image: url(../images/blockquote.jpg);
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 150px;
+}
+.blockquote__text {
+   max-width: 670px;
+   margin: 0 auto;
+   font-size: 42px;
+   line-height: 57px;
+   font-weight: 400;
+   color: #fff;
+}
+
+.clients {
+   margin-bottom: 150px;
+}
+
+.clients-slider {
+}
+.clients-slider__item {
+}
+.clients-slider__box {
+   display: flex;
+}
+.clients-slider__box-img {
+   flex-basis: 510px;
+   margin-right: 90px;
+   margin-bottom: 30px;
+}
+.clients-slider__box-content {
+}
+.clients-slider__box-title {
+   max-width: 478px;
+   font-size: 18px;
+   line-height: 25px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.clients-slider__box-list {
+   margin-bottom: 50px;
+   margin-left: 50px;
+}
+.clients-slider__box-item {
+   margin-bottom: 15px;
+}
+.button {
+}
+.button__path {
+}
+.button__text {
+}
+
+.slick-arrow path {
+   transition: fill .5s;
+}
+
+.slick-arrow:hover path {
+   fill: #A9A32A;
+}
+
+.step {
+   margin-bottom: 150px;
+}
+
+.step__inner {
+   display: flex;
+}
+.step__content {
+   margin-right: 90px;
+}
+
+.step__list {
+   list-style: none;
+   counter-reset: number;
+}
+
+.step__list-item {
+   counter-increment: number;
+   margin-bottom: 30px;
+}
+
+.step__list-item::before {
+   content: "0" counter(number);
+   margin-bottom: 11px;
+   color: #868585;
+}
+
+.step__list-item:nth-child(n + 10)::before {
+   content: counter(number);
+}
+
+.step__list-title {
+   margin-bottom: 2px;
+   font-size: 18px;
+   line-height: 25px;
+   font-weight: 700;
+}
+.step__list-text {
+}
+.step__img {
+   flex-basis: 600px;
+   object-fit: cover;
 }
